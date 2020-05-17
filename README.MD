@@ -20,10 +20,10 @@
 8. http://mymoneyrw.herokuapp.com/api/auth/users/set_username/
 8. http://mymoneyrw.herokuapp.com/api/auth/users/reset_username/
 8. http://mymoneyrw.herokuapp.com/api/auth/users/reset_username_confirm/
-8. http://mymoneyrw.herokuapp.com/api/auth/articles/
-8. http://mymoneyrw.herokuapp.com/api/auth/businessplans/
-8. http://mymoneyrw.herokuapp.com/api/auth/testimonies/
-8. http://mymoneyrw.herokuapp.com/api/auth/feedback/
+8. http://mymoneyrw.herokuapp.com/api/articles/
+8. http://mymoneyrw.herokuapp.com/api/businessplans/
+8. http://mymoneyrw.herokuapp.com/api/testimonies/
+8. http://mymoneyrw.herokuapp.com/api/feedback/
 
 
 
