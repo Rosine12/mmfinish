@@ -1,0 +1,1342 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-17 19:01+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: api/templates/rest_framework/api.html:8
+msgid "MyMoney REST API"
+msgstr "Amafaranga REST API"
+
+#: core/models.py:25
+msgid "active"
+msgstr ""
+
+#: core/models.py:26
+msgid "Admin"
+msgstr ""
+
+#: core/models.py:27
+msgid "Refugee authority"
+msgstr ""
+
+#: core/models.py:28
+msgid "Investor"
+msgstr ""
+
+#: core/models.py:29 home/templates/in.html:95 home/templates/in.html:195
+#: home/templates/newhm.html:102 home/templates/newhm.html:202
+msgid "Partner"
+msgstr ""
+
+#: core/models.py:30
+msgid "email address"
+msgstr ""
+
+#: core/models.py:31
+msgid "Phone Number"
+msgstr ""
+
+#: core/models.py:32
+msgid "first name"
+msgstr ""
+
+#: core/models.py:33
+msgid "last name"
+msgstr ""
+
+#: core/models.py:34
+msgid "Date of Birth"
+msgstr ""
+
+#: core/models.py:43
+msgid "date joined"
+msgstr ""
+
+#: core/models.py:52
+msgid "user"
+msgstr ""
+
+#: core/models.py:53
+msgid "users"
+msgstr ""
+
+#: core/templates/account/account_inactive.html:5
+#: core/templates/account/account_inactive.html:8
+msgid "Account Inactive"
+msgstr ""
+
+#: core/templates/account/account_inactive.html:10
+msgid "This account is inactive."
+msgstr ""
+
+#: core/templates/account/email.html:5
+msgid "Account"
+msgstr ""
+
+#: core/templates/account/email.html:8
+msgid "E-mail Addresses"
+msgstr ""
+
+#: core/templates/account/email.html:10
+msgid "The following e-mail addresses are associated with your account:"
+msgstr ""
+
+#: core/templates/account/email.html:24
+msgid "Verified"
+msgstr ""
+
+#: core/templates/account/email.html:26
+msgid "Unverified"
+msgstr ""
+
+#: core/templates/account/email.html:28
+msgid "Primary"
+msgstr ""
+
+#: core/templates/account/email.html:34
+msgid "Make Primary"
+msgstr ""
+
+#: core/templates/account/email.html:35
+msgid "Re-send Verification"
+msgstr ""
+
+#: core/templates/account/email.html:36
+msgid "Remove"
+msgstr ""
+
+#: core/templates/account/email.html:43
+msgid "Warning:"
+msgstr ""
+
+#: core/templates/account/email.html:43
+msgid ""
+"You currently do not have any e-mail address set up. You should really add "
+"an e-mail address so you can receive notifications, reset your password, etc."
+msgstr ""
+
+#: core/templates/account/email.html:48
+msgid "Add E-mail Address"
+msgstr ""
+
+#: core/templates/account/email.html:53
+msgid "Add E-mail"
+msgstr ""
+
+#: core/templates/account/email.html:62
+msgid "Do you really want to remove the selected e-mail address?"
+msgstr ""
+
+#: core/templates/account/email/email_confirmation_message.txt:1
+#, python-format
+msgid ""
+"Hello from %(site_name)s!\n"
+"\n"
+"You're receiving this e-mail because user %(user_display)s has given yours "
+"as an e-mail address to connect their account.\n"
+"\n"
+"To confirm this is correct, go to %(activate_url)s\n"
+msgstr ""
+
+#: core/templates/account/email/email_confirmation_message.txt:7
+#, python-format
+msgid ""
+"Thank you from %(site_name)s!\n"
+"%(site_domain)s"
+msgstr ""
+
+#: core/templates/account/email/email_confirmation_subject.txt:3
+msgid "Please Confirm Your E-mail Address"
+msgstr ""
+
+#: core/templates/account/email/password_reset_key_message.txt:1
+#, python-format
+msgid ""
+"Hello from %(site_name)s!\n"
+"\n"
+"You're receiving this e-mail because you or someone else has requested a "
+"password for your user account.\n"
+"It can be safely ignored if you did not request a password reset. Click the "
+"link below to reset your password."
+msgstr ""
+
+#: core/templates/account/email/password_reset_key_message.txt:8
+#, python-format
+msgid "In case you forgot, your username is %(username)s."
+msgstr ""
+
+#: core/templates/account/email/password_reset_key_message.txt:10
+#, python-format
+msgid ""
+"Thank you for using %(site_name)s!\n"
+"%(site_domain)s"
+msgstr ""
+
+#: core/templates/account/email/password_reset_key_subject.txt:3
+msgid "Password Reset E-mail"
+msgstr ""
+
+#: core/templates/account/email_confirm.html:6
+#: core/templates/account/email_confirm.html:10
+msgid "Confirm E-mail Address"
+msgstr ""
+
+#: core/templates/account/email_confirm.html:16
+#, python-format
+msgid ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"address for user %(user_display)s."
+msgstr ""
+
+#: core/templates/account/email_confirm.html:20
+msgid "Confirm"
+msgstr ""
+
+#: core/templates/account/email_confirm.html:27
+#, python-format
+msgid ""
+"This e-mail confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+msgstr ""
+
+#: core/templates/account/login.html:8 core/templates/account/login.html:35
+#: core/templates/registration/login.html:8
+#: core/templates/registration/login.html:35
+msgid "Sign In"
+msgstr ""
+
+#: core/templates/account/login.html:22
+#: core/templates/registration/login.html:22
+msgid "Welcome Back !"
+msgstr ""
+
+#: core/templates/account/login.html:23
+#: core/templates/registration/login.html:23
+msgid "Sign in to continue to My Money."
+msgstr ""
+
+#: core/templates/account/login.html:34
+#: core/templates/registration/login.html:34
+msgid "Forgot Password?"
+msgstr ""
+
+#: core/templates/account/login.html:43
+#, python-format
+msgid ""
+" If you have not created an account yet, then please<a href=\"%(signup_url)s"
+"\" class=\"text-primary\"> \"Signup Now\" </a> "
+msgstr ""
+
+#: core/templates/account/logout.html:6 core/templates/account/logout.html:20
+#: core/templates/account/logout.html:29
+msgid "Sign Out"
+msgstr ""
+
+#: core/templates/account/logout.html:22
+msgid "Are you sure you want to sign out?"
+msgstr ""
+
+#: core/templates/account/messages/cannot_delete_primary_email.txt:2
+#, python-format
+msgid "You cannot remove your primary e-mail address (%(email)s)."
+msgstr ""
+
+#: core/templates/account/messages/email_confirmation_sent.txt:2
+#, python-format
+msgid "Confirmation e-mail sent to %(email)s."
+msgstr ""
+
+#: core/templates/account/messages/email_confirmed.txt:2
+#, python-format
+msgid "You have confirmed %(email)s."
+msgstr ""
+
+#: core/templates/account/messages/email_deleted.txt:2
+#, python-format
+msgid "Removed e-mail address %(email)s."
+msgstr ""
+
+#: core/templates/account/messages/logged_in.txt:4
+#, python-format
+msgid "Successfully signed in as %(name)s."
+msgstr ""
+
+#: core/templates/account/messages/logged_out.txt:2
+msgid "You have signed out."
+msgstr ""
+
+#: core/templates/account/messages/password_changed.txt:2
+msgid "Password successfully changed."
+msgstr ""
+
+#: core/templates/account/messages/password_set.txt:2
+msgid "Password successfully set."
+msgstr ""
+
+#: core/templates/account/messages/primary_email_set.txt:2
+msgid "Primary e-mail address set."
+msgstr ""
+
+#: core/templates/account/messages/unverified_primary_email.txt:2
+msgid "Your primary e-mail address must be verified."
+msgstr ""
+
+#: core/templates/account/password_change.html:8
+#: core/templates/account/password_change.html:33
+#: core/templates/account/password_reset_from_key.html:5
+#: core/templates/account/password_reset_from_key.html:8
+#: core/templates/account/password_reset_from_key_done.html:4
+#: core/templates/account/password_reset_from_key_done.html:7
+msgid "Change Password"
+msgstr ""
+
+#: core/templates/account/password_change.html:22
+msgid "Change Password !"
+msgstr ""
+
+#: core/templates/account/password_change.html:41
+#: core/templates/account/password_set.html:43
+#: core/templates/registration/login.html:43
+#, python-format
+msgid ""
+"If you have not created an account yet, then please<a href=\"%(signup_url)s"
+"\" class=\"text-primary\"> Signup Now </a> "
+msgstr ""
+
+#: core/templates/account/password_reset.html:8
+#: core/templates/account/password_reset_done.html:6
+#: core/templates/account/password_reset_done.html:9
+msgid "Password Reset"
+msgstr ""
+
+#: core/templates/account/password_reset.html:25
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll send you "
+"an e-mail allowing you to reset it."
+msgstr ""
+
+#: core/templates/account/password_reset.html:38
+#: core/templates/account/password_reset.html:39
+msgid "Reset My Password"
+msgstr ""
+
+#: core/templates/account/password_reset.html:41
+msgid "Please contact us if you have any trouble resetting your password."
+msgstr ""
+
+#: core/templates/account/password_reset_done.html:15
+msgid ""
+"We have sent you an e-mail. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+
+#: core/templates/account/password_reset_from_key.html:8
+msgid "Bad Token"
+msgstr ""
+
+#: core/templates/account/password_reset_from_key.html:12
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
+msgstr ""
+
+#: core/templates/account/password_reset_from_key.html:20
+#: investor/templates/inv.html:161 partner/templates/pa.html:172
+#: ra/templates/base1.html:157 user/templates/based.html:164
+msgid "change password"
+msgstr ""
+
+#: core/templates/account/password_reset_from_key.html:23
+#: core/templates/account/password_reset_from_key_done.html:8
+msgid "Your password is now changed."
+msgstr ""
+
+#: core/templates/account/password_set.html:7
+#: core/templates/account/password_set.html:21
+#: core/templates/account/password_set.html:34
+msgid "Set Password"
+msgstr ""
+
+#: core/templates/account/signup.html:6 home/templates/in.html:50
+#: home/templates/newhm.html:57
+msgid "Signup"
+msgstr ""
+
+#: core/templates/account/signup.html:18
+msgid "Free Register"
+msgstr ""
+
+#: core/templates/account/signup.html:19
+msgid "Get your My Money account now."
+msgstr ""
+
+#: core/templates/account/signup.html:30 home/templates/base3.html:29
+msgid "Sign Up"
+msgstr ""
+
+#: core/templates/account/signup.html:38
+#, python-format
+msgid ""
+"Already have an account? Then please <a href=\"%(login_url)s\" class=\"text-"
+"primary\">sign in</a>."
+msgstr ""
+
+#: core/templates/account/signup_closed.html:5
+#: core/templates/account/signup_closed.html:8
+msgid "Sign Up Closed"
+msgstr ""
+
+#: core/templates/account/signup_closed.html:10
+msgid "We are sorry, but the sign up is currently closed."
+msgstr ""
+
+#: core/templates/account/snippets/already_logged_in.html:5
+#: investor/templates/investor/investedin-detail.html:76
+msgid "Note"
+msgstr ""
+
+#: core/templates/account/snippets/already_logged_in.html:5
+#, python-format
+msgid "you are already logged in as %(user_display)s."
+msgstr ""
+
+#: core/templates/account/verification_sent.html:5
+#: core/templates/account/verification_sent.html:8
+#: core/templates/account/verified_email_required.html:5
+#: core/templates/account/verified_email_required.html:8
+msgid "Verify Your E-mail Address"
+msgstr ""
+
+#: core/templates/account/verification_sent.html:10
+msgid ""
+"We have sent an e-mail to you for verification. Follow the link provided to "
+"finalize the signup process. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+
+#: core/templates/account/verified_email_required.html:12
+msgid ""
+"This part of the site requires us to verify that\n"
+"you are who you claim to be. For this purpose, we require that you\n"
+"verify ownership of your e-mail address. "
+msgstr ""
+
+#: core/templates/account/verified_email_required.html:16
+msgid ""
+"We have sent an e-mail to you for\n"
+"verification. Please click on the link inside this e-mail. Please\n"
+"contact us if you do not receive it within a few minutes."
+msgstr ""
+
+#: core/templates/account/verified_email_required.html:20
+#, python-format
+msgid ""
+"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
+"mail address</a>."
+msgstr ""
+
+#: core/templates/core/403.html:6
+msgid "You are not allowed to view this page"
+msgstr ""
+
+#: core/templates/core/403.html:20
+msgid "Sorry, You are not allowed to view this page"
+msgstr ""
+
+#: core/templates/core/403.html:22 core/templates/core/404.html:22
+#: core/templates/core/500.html:22
+msgid "Back to Home"
+msgstr ""
+
+#: core/templates/core/404.html:6
+msgid "Page Not available"
+msgstr ""
+
+#: core/templates/core/404.html:20 core/templates/core/500.html:20
+msgid "Sorry, Page can't be found"
+msgstr ""
+
+#: core/templates/core/500.html:6
+msgid "500 Error"
+msgstr ""
+
+#: core/templates/core/feedback_form.html:6
+#: core/templates/core/feedback_form.html:15
+msgid "Contact & Feedback "
+msgstr ""
+
+#: core/templates/core/feedback_form.html:18
+#: core/templates/core/subscriber_form.html:18 core/templates/core/user.html:19
+#: core/templates/core/user_form.html:18
+msgid "My Money Dashboard"
+msgstr ""
+
+#: core/templates/core/subscriber_form.html:15 home/templates/in.html:271
+#: home/templates/newhm.html:257 user/templates/based.html:146
+msgid "Subscribe"
+msgstr ""
+
+#: core/templates/core/subscriber_form.html:37
+msgid "subscribe"
+msgstr ""
+
+#: core/templates/core/user.html:6 core/templates/core/user_form.html:6
+#: investor/templates/investor/user_form.html:6
+msgid "Edit profile"
+msgstr ""
+
+#: core/templates/core/user.html:16 core/templates/core/user_form.html:15
+msgid "Camp Authority Profile"
+msgstr ""
+
+#: core/templates/core/user_form.html:37
+msgid "update"
+msgstr ""
+
+#: home/templates/base3.html:25
+msgid "Log out"
+msgstr ""
+
+#: home/templates/base3.html:28 home/templates/in.html:50
+#: home/templates/newhm.html:57
+msgid "Login"
+msgstr ""
+
+#: home/templates/home/abo.html:30
+msgid "High repayment rates"
+msgstr ""
+
+#: home/templates/home/abo.html:31
+msgid ""
+"The loan repayment rates for refugee women are as high as those for non-"
+"refugee women."
+msgstr ""
+
+#: home/templates/home/abo.html:39
+msgid "Technological solutions"
+msgstr ""
+
+#: home/templates/home/abo.html:40
+msgid ""
+"Digital technologies can significantly improve financial services for "
+"refugee women."
+msgstr ""
+
+#: home/templates/home/abo.html:48
+msgid "New research"
+msgstr ""
+
+#: home/templates/home/abo.html:49
+msgid ""
+"New funding research tells us that it is time for the financial sector to "
+"think about making investments in refugee women."
+msgstr ""
+
+#: home/templates/home/abo.html:57
+msgid "Innovation competitions"
+msgstr ""
+
+#: home/templates/home/abo.html:58
+msgid ""
+"Competition for innovation brings new financial services to refugee camp "
+"zones."
+msgstr ""
+
+#: home/templates/home/about-us.html:4 home/templates/home/about-us.html:5
+msgid "About Us"
+msgstr ""
+
+#: home/templates/home/about-us.html:16
+msgid "Techsolvers Company profile:"
+msgstr ""
+
+#: home/templates/home/about-us.html:17
+msgid ""
+"Techsolver was created by three young women living in Kigali 2019, after "
+"winning the hackathon competition \\"
+msgstr ""
+
+#: home/templates/home/about-us.html:27
+msgid "Mission:"
+msgstr ""
+
+#: home/templates/home/about-us.html:28
+msgid ""
+"Our main mission is “To remove barriers in access to finance by linking "
+"women to financial opportunities and Market as well as Empower and sustain "
+"women through financial inclusion”."
+msgstr ""
+
+#: home/templates/home/about-us.html:36
+msgid "Our Vision"
+msgstr ""
+
+#: home/templates/home/about-us.html:37
+msgid ""
+"Build a high quality web and mobile application that is responsive and "
+"supportive of refugees through financial inclusion and scale up by the end "
+"of 2025. "
+msgstr ""
+
+#: home/templates/home/about-us.html:45
+msgid "Our value"
+msgstr ""
+
+#: home/templates/home/about-us.html:46
+msgid ""
+"We promote life through technology with women’s touch of caring and being "
+"focused coupled with ICT and we are part of the community of women leaders "
+"in ICT"
+msgstr ""
+
+#: home/templates/home/about-us.html:55
+msgid ""
+"We promote life through technology by involving women, focusing on women's "
+"needs in ICTs, and we are part of the community of women ICT leaders."
+msgstr ""
+
+#: home/templates/home/fsc.html:70
+msgid "Problem-Solving Skills"
+msgstr ""
+
+#: home/templates/home/fsc.html:101
+msgid "Customer service Skills"
+msgstr ""
+
+#: home/templates/home/fsc.html:131
+msgid "Microsoft Office Skills."
+msgstr ""
+
+#: home/templates/home/fsc.html:168
+msgid "Creativity Skills."
+msgstr ""
+
+#: home/templates/home/fsc.html:236
+msgid "Communication Skills."
+msgstr ""
+
+#: home/templates/home/fsc.html:237
+msgid ""
+"As they may sell the portfolio, and organize an exhibition, they need to "
+"improve in communication skills "
+msgstr ""
+
+#: home/templates/home/fsc.html:270
+msgid "Interpersonal Skills."
+msgstr ""
+
+#: home/templates/home/fsc.html:271
+msgid ""
+"Are every day when we interact with other people, both individually and in "
+"groups."
+msgstr ""
+
+#: home/templates/home/iandr.html:20
+#: investor/templates/investor/buzzplan-detail.html:155
+msgid "Investment"
+msgstr ""
+
+#: home/templates/home/iandr.html:21
+msgid "Access to finance empowers women refugees"
+msgstr ""
+
+#: home/templates/home/iandr.html:26
+msgid ""
+"Financial services play a key role in making refugee women populations in "
+"Rwanda more resilient to adversity. However, because refugee women are "
+"perceived as high-risk individuals, they have difficulty accessing finance. "
+"TechSolver proves that loans to refugees can be profitable."
+msgstr ""
+
+#: home/templates/home/index.html:144
+msgid "Submit your idea today to your camp"
+msgstr ""
+
+#: home/templates/home/index.html:144
+msgid "using the below link"
+msgstr ""
+
+#: home/templates/home/index.html:165
+msgid "Sell your idea"
+msgstr ""
+
+#: home/templates/home/index.html:186 home/templates/home/index.html:272
+msgid "Learn more"
+msgstr ""
+
+#: home/templates/home/index.html:210
+msgid "Are you Investor"
+msgstr ""
+
+#: home/templates/home/index.html:210
+msgid "See ideas to invest in."
+msgstr ""
+
+#: home/templates/home/index.html:251
+msgid "Invest"
+msgstr ""
+
+#: home/templates/home/index.html:288
+msgid "Write your idea"
+msgstr ""
+
+#: home/templates/home/index.html:289
+msgid "Write or draft your business idea by answering the questions"
+msgstr ""
+
+#: home/templates/home/index.html:295
+msgid "Send it to your camp's RA"
+msgstr ""
+
+#: home/templates/home/index.html:296
+msgid "Refugee authority will review and approve your business"
+msgstr ""
+
+#: home/templates/home/index.html:302
+msgid "Investors & Partners"
+msgstr ""
+
+#: home/templates/home/index.html:303
+msgid "investor"
+msgstr ""
+
+#: home/templates/home/index.html:323
+msgid "Women financial inclusion"
+msgstr ""
+
+#: home/templates/home/index.html:324
+msgid ""
+"It was designed to encourage and empower it's users through the provision of "
+"business, financial infomation and opportunities. Those opportunities "
+"include but not limited to requesting for a loan, saving, debiting and "
+"crediting.  "
+msgstr ""
+
+#: home/templates/home/index.html:326
+msgid "get financial literacy workshops"
+msgstr ""
+
+#: home/templates/home/index.html:327
+msgid "resenting their projects to get funds"
+msgstr ""
+
+#: home/templates/home/index.html:342
+msgid "some"
+msgstr ""
+
+#: home/templates/home/index.html:342
+msgid "Testimonials"
+msgstr ""
+
+#: home/templates/home/index.html:343
+msgid "What people say about us"
+msgstr ""
+
+#: home/templates/home/index.html:373
+msgid "Business Idea"
+msgstr ""
+
+#: home/templates/home/index.html:373
+msgid "To invest in"
+msgstr ""
+
+#: home/templates/home/index.html:374
+msgid "Business idea to invest in"
+msgstr ""
+
+#: home/templates/home/index.html:399
+msgid "View All"
+msgstr ""
+
+#: home/templates/home/index.html:411
+msgid "Latest"
+msgstr ""
+
+#: home/templates/home/index.html:411
+msgid "News/Articles"
+msgstr ""
+
+#: home/templates/home/merch.html:4 home/templates/home/merch.html:5
+msgid "Merchandise"
+msgstr ""
+
+#: home/templates/home/news-entertainment.html:4
+#: home/templates/home/news-entertainment.html:5
+msgid "Entertainment News"
+msgstr ""
+
+#: home/templates/home/news-entertainment.html:24
+msgid "Read More"
+msgstr ""
+
+#: home/templates/home/news-partners.html:4
+#: home/templates/home/news-partners.html:5
+msgid "Partners News"
+msgstr ""
+
+#: home/templates/home/project.html:4 home/templates/home/project.html:5
+msgid "Partners News "
+msgstr ""
+
+#: home/templates/home/team.html:43
+msgid "Managing Director of TechsoLver"
+msgstr ""
+
+#: home/templates/home/team.html:44
+msgid ""
+"Very concerned when she sees women suffering, she always likes to see a "
+"smile on a woman's face."
+msgstr ""
+
+#: home/templates/home/team.html:52
+msgid "Developer and QA Tester"
+msgstr ""
+
+#: home/templates/home/team.html:53
+msgid ""
+"She is always repeating \\“Women shouldn't be afraid to put themselves "
+"forward. \\”"
+msgstr ""
+
+#: home/templates/home/team.html:61
+msgid " Developer and Test engineer"
+msgstr ""
+
+#: home/templates/home/team.html:62
+msgid ""
+"Sometimes we don’t take opportunities because the timing is bad, the "
+"financial side unsecure. Too many people are overanalyzing. Who knows "
+"Sometimes you just have to go for it."
+msgstr ""
+
+#: home/templates/in.html:44 home/templates/newhm.html:51
+msgid "Email"
+msgstr ""
+
+#: home/templates/in.html:48 home/templates/newhm.html:55
+#: investor/templates/inv.html:117
+#: investor/templates/investor/investedin_form.html:18
+#: investor/templates/investor/user_form.html:18 partner/templates/pa.html:117
+#: ra/templates/base1.html:118 user/templates/based.html:117
+#: user/templates/user/index.html:11
+msgid "Dashboard"
+msgstr ""
+
+#: home/templates/in.html:70 home/templates/in.html:174
+#: home/templates/newhm.html:77 home/templates/newhm.html:181
+msgid "Home"
+msgstr ""
+
+#: home/templates/in.html:72 home/templates/in.html:176
+#: home/templates/in.html:262 home/templates/newhm.html:79
+#: home/templates/newhm.html:183 home/templates/newhm.html:248
+msgid "About us"
+msgstr ""
+
+#: home/templates/in.html:74 home/templates/in.html:178
+#: home/templates/newhm.html:81 home/templates/newhm.html:185
+msgid "Company Profile"
+msgstr ""
+
+#: home/templates/in.html:76 home/templates/in.html:179
+#: home/templates/newhm.html:83 home/templates/newhm.html:186
+msgid "Our team"
+msgstr ""
+
+#: home/templates/in.html:82 home/templates/in.html:184
+#: home/templates/in.html:263 home/templates/newhm.html:89
+#: home/templates/newhm.html:191 home/templates/newhm.html:249
+msgid "Services"
+msgstr ""
+
+#: home/templates/in.html:84 home/templates/in.html:186
+#: home/templates/newhm.html:91 home/templates/newhm.html:193
+msgid "Access to Business opportunities"
+msgstr ""
+
+#: home/templates/in.html:86 home/templates/in.html:187
+#: home/templates/newhm.html:93 home/templates/newhm.html:194
+msgid "Financial Skills & Coaching"
+msgstr ""
+
+#: home/templates/in.html:92 home/templates/in.html:192
+#: home/templates/newhm.html:99 home/templates/newhm.html:199
+msgid "News"
+msgstr "Amakuru"
+
+#: home/templates/in.html:94 home/templates/in.html:194
+#: home/templates/newhm.html:101 home/templates/newhm.html:201
+msgid "Entertainment"
+msgstr ""
+
+#: home/templates/in.html:96 home/templates/in.html:196
+#: home/templates/newhm.html:103 home/templates/newhm.html:203
+msgid "Testemonies"
+msgstr ""
+
+#: home/templates/in.html:103 home/templates/in.html:203
+#: home/templates/in.html:211 home/templates/newhm.html:110
+#: home/templates/newhm.html:210 home/templates/newhm.html:218
+msgid "Merchandises"
+msgstr ""
+
+#: home/templates/in.html:161
+msgid "change"
+msgstr ""
+
+#: home/templates/in.html:254 home/templates/newhm.html:240
+msgid ""
+"My Money is a digital platform which bridges the financial exclusion of "
+"refugees women."
+msgstr ""
+
+#: home/templates/in.html:260 home/templates/newhm.html:246
+msgid "Useful Links"
+msgstr ""
+
+#: home/templates/in.html:264 home/templates/newhm.html:250
+#: investor/templates/investor/index.html:95
+msgid "Contact"
+msgstr ""
+
+#: home/templates/in.html:309 home/templates/newhm.html:295
+msgid "All Right Reserved."
+msgstr ""
+
+#: home/templates/newhm.html:168
+msgid "Change"
+msgstr ""
+
+#: investor/templates/inv.html:84 partner/templates/pa.html:84
+#: ra/templates/base1.html:85
+msgid "Logout"
+msgstr ""
+
+#: investor/templates/inv.html:123
+msgid "Update Company profile"
+msgstr ""
+
+#: investor/templates/inv.html:129
+msgid "Company profile "
+msgstr ""
+
+#: investor/templates/inv.html:134
+msgid "Bucket"
+msgstr ""
+
+#: investor/templates/inv.html:137 partner/templates/pa.html:148
+msgid "All Business Idea"
+msgstr ""
+
+#: investor/templates/inv.html:138 partner/templates/pa.html:149
+msgid "Idea Invested in"
+msgstr ""
+
+#: investor/templates/inv.html:149 partner/templates/pa.html:160
+msgid "Founded Business Ideas"
+msgstr ""
+
+#: investor/templates/inv.html:151 partner/templates/pa.html:162
+msgid "Reports"
+msgstr ""
+
+#: investor/templates/inv.html:157 partner/templates/pa.html:168
+#: ra/templates/base1.html:153 user/templates/based.html:160
+msgid "Settings"
+msgstr ""
+
+#: investor/templates/inv.html:160 partner/templates/pa.html:171
+#: ra/templates/base1.html:156 user/templates/based.html:163
+msgid "Profile"
+msgstr ""
+
+#: investor/templates/investor/approved-business-plan.html:4
+#: investor/templates/investor/approved-business-plan.html:12
+#: investor/templates/investor/approved-business-plan.html:26
+#: investor/templates/investor/approved-business-plan.html:69
+msgid "Business Plan to invest in"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:4
+#: investor/templates/investor/buzzplan-detail.html:12
+#: investor/templates/investor/buzzplan-detail.html:26
+msgid "Business Idea Detail"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:32
+#: investor/templates/investor/investedin-detail.html:32
+msgid "Contents"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:36
+msgid "Username"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:43
+msgid "camp"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:51
+msgid "Address"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:59
+msgid "Employment status"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:67
+msgid "Current position"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:75
+#: investor/templates/investor/investedin-detail.html:52
+msgid "Problem"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:83
+#: investor/templates/investor/investedin-detail.html:60
+#: investor/templates/investor/investedin.html:33
+msgid "Solution"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:91
+msgid "Target buyers"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:99
+msgid "Work into cooperatives"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:107
+msgid "Explain how manage"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:115
+msgid "Employees"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:123
+msgid "Benefits"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:131
+msgid "Features"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:139
+msgid "Potential competitors"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:147
+msgid "Customers feedback"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:163
+msgid "Profit forecast"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:171
+msgid "Financial support"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:179
+msgid "Full names"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:203
+msgid "Interested mentor"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:227
+msgid "Informations"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:235
+msgid "Other"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:243
+msgid "Date created"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:257
+msgid "Edit Business plan"
+msgstr ""
+
+#: investor/templates/investor/buzzplan-detail.html:273
+msgid "Invest in"
+msgstr ""
+
+#: investor/templates/investor/index.html:5
+#: investor/templates/investor/index.html:12
+msgid "Investor Dashboard"
+msgstr ""
+
+#: investor/templates/investor/index.html:15
+msgid "Welcome to Investor Dashboard"
+msgstr ""
+
+#: investor/templates/investor/index.html:31
+msgid "Users"
+msgstr ""
+
+#: investor/templates/investor/index.html:46
+msgid "Business to invest in"
+msgstr ""
+
+#: investor/templates/investor/index.html:62
+msgid "Invested in"
+msgstr ""
+
+#: investor/templates/investor/index.html:76
+msgid "Feedbacks"
+msgstr ""
+
+#: investor/templates/investor/index.html:87
+msgid "Invested-in Business Ideas"
+msgstr ""
+
+#: investor/templates/investor/index.html:93
+msgid "Name"
+msgstr ""
+
+#: investor/templates/investor/index.html:94
+msgid "Owner"
+msgstr ""
+
+#: investor/templates/investor/index.html:96
+#: investor/templates/investor/investedin.html:36
+msgid "Action"
+msgstr ""
+
+#: investor/templates/investor/investedin-detail.html:4
+#: investor/templates/investor/investedin-detail.html:12
+#: investor/templates/investor/investedin-detail.html:26
+msgid "Invest in Detail"
+msgstr ""
+
+#: investor/templates/investor/investedin-detail.html:36
+msgid "Name of the owner"
+msgstr ""
+
+#: investor/templates/investor/investedin-detail.html:68
+msgid "Price"
+msgstr ""
+
+#: investor/templates/investor/investedin.html:4
+#: investor/templates/investor/investedin.html:12
+#: investor/templates/investor/investedin.html:26
+msgid "InvestedIn Ideas"
+msgstr ""
+
+#: investor/templates/investor/investedin.html:32
+msgid "Full name"
+msgstr ""
+
+#: investor/templates/investor/investedin.html:34
+msgid "Status"
+msgstr ""
+
+#: investor/templates/investor/investedin.html:35
+msgid "Amount"
+msgstr ""
+
+#: investor/templates/investor/investedin_form.html:6
+#: investor/templates/investor/investedin_form.html:15
+msgid "Edit Invested in Business"
+msgstr ""
+
+#: investor/templates/investor/user_form.html:15
+msgid "Investor Profile"
+msgstr ""
+
+#: mymoney/settings.py:125
+msgid "Ikinyarwanda"
+msgstr ""
+
+#: partner/templates/pa.html:123
+msgid "Update organization profile"
+msgstr ""
+
+#: partner/templates/pa.html:129
+msgid "organization  profile"
+msgstr ""
+
+#: partner/templates/pa.html:134
+msgid "Articles"
+msgstr ""
+
+#: partner/templates/pa.html:137
+msgid "All Articles"
+msgstr ""
+
+#: partner/templates/pa.html:138
+msgid "Add Article"
+msgstr ""
+
+#: partner/templates/partner/articles_form.html:31
+msgid "Save"
+msgstr ""
+
+#: ra/templates/base1.html:122
+msgid "Partners"
+msgstr ""
+
+#: ra/templates/base1.html:125
+msgid "All Partners"
+msgstr ""
+
+#: ra/templates/base1.html:133
+msgid "All Investors"
+msgstr ""
+
+#: ra/templates/base1.html:140
+msgid "Business Ideas"
+msgstr ""
+
+#: ra/templates/base1.html:143
+msgid "Submitted Business Ideas"
+msgstr ""
+
+#: ra/templates/base1.html:145
+msgid "Approved Business Ideas"
+msgstr ""
+
+#: ra/templates/base1.html:147
+msgid "Foundend Business Ideas"
+msgstr ""
+
+#: user/templates/based.html:84
+msgid " Logout"
+msgstr ""
+
+#: user/templates/based.html:121
+msgid " My Portfolio "
+msgstr ""
+
+#: user/templates/based.html:124
+msgid "All Portfolio"
+msgstr ""
+
+#: user/templates/based.html:125
+msgid "Add Portfolio"
+msgstr ""
+
+#: user/templates/based.html:133
+msgid "Add Idea/Business Plan"
+msgstr ""
+
+#: user/templates/based.html:134
+msgid "Draft Business Idea"
+msgstr ""
+
+#: user/templates/based.html:135
+msgid "All my ideas"
+msgstr ""
+
+#: user/templates/based.html:155
+msgid "Feedback/querry"
+msgstr ""
+
+#: user/templates/user/businessplan_form.html:43
+#: user/templates/user/portfolio_form.html:43
+#: user/templates/user/send-form.html:42
+msgid "submit"
+msgstr ""
+
+#: user/templates/user/index.html:5
+msgid "My Account"
+msgstr ""
+
+#: user/templates/user/index.html:14
+msgid " Welcome to My Money Dashboard"
+msgstr ""
+
+#: user/templates/user/index.html:41
+msgid "Published Portfolio"
+msgstr ""
+
+#: user/templates/user/index.html:57
+msgid "Sponsored Business idea"
+msgstr ""
+
+#: user/templates/user/index.html:73
+msgid "Approved Business idea"
+msgstr ""
+
+#: user/templates/user/index.html:85
+msgid "Latest Announcements"
+msgstr ""
+
+#: user/templates/user/index.html:90
+msgid "Date Created"
+msgstr ""
+
+#: user/templates/user/index.html:91
+msgid "Title"
+msgstr ""
+
+#: user/templates/user/index.html:92
+msgid "Description"
+msgstr ""
+
+#: user/templates/user/index.html:93
+msgid "Provider"
+msgstr ""
+
+#: user/templates/user/index.html:94
+msgid "Partner "
+msgstr ""
+
+#: user/templates/user/send-form.html:39
+msgid "first step"
+msgstr ""
+
+#: user/templates/user/send-form.html:40
+msgid "prev step"
+msgstr ""
+
+#: user/views.py:44
+#, python-format
+msgid "%(title)s was created successfully"
+msgstr ""
+
+#: user/views.py:52
+#, python-format
+msgid "%(title)s was successfully updated"
+msgstr ""
+
+#: user/views.py:86
+msgid "%business plan was successfully deleted"
+msgstr ""
+
+#: user/views.py:111
+#, python-format
+msgid "%(mobile)s was successfully updated"
+msgstr ""
+
+#: user/views.py:121
+#, python-format
+msgid "%(name)s was successfully sent"
+msgstr ""
+
+#: user/views.py:130
+#, python-format
+msgid "%(phone_number)s was successfully subscribed"
+msgstr ""
