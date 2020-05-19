@@ -24,123 +24,124 @@ msgstr ""
 
 #: core/models.py:25
 msgid "active"
-msgstr ""
+msgstr "Actif"
 
 #: core/models.py:26
 msgid "Admin"
-msgstr ""
+msgstr "Admin"
 
 #: core/models.py:27
 msgid "Refugee authority"
-msgstr ""
+msgstr "Autorité chargée des réfugiés"
 
 #: core/models.py:28
 msgid "Investor"
-msgstr ""
+msgstr "Investisseur"
 
 #: core/models.py:29 home/templates/in.html:95 home/templates/in.html:195
 #: home/templates/newhm.html:102 home/templates/newhm.html:202
 msgid "Partner"
-msgstr ""
+msgstr "Partenaire"
 
 #: core/models.py:30
 msgid "email address"
-msgstr ""
+msgstr "l'Adresse Courriel"
 
 #: core/models.py:31
 msgid "Phone Number"
-msgstr ""
+msgstr "Numéro de téléphone"
 
 #: core/models.py:32
 msgid "first name"
-msgstr ""
+msgstr "Prénom"
 
 #: core/models.py:33
 msgid "last name"
-msgstr ""
+msgstr "Nom"
 
 #: core/models.py:34
 msgid "Date of Birth"
-msgstr ""
+msgstr "Date de naissance"
 
 #: core/models.py:43
 msgid "date joined"
-msgstr ""
+msgstr "Date d'adhésion"
 
 #: core/models.py:52
 msgid "user"
-msgstr ""
+msgstr "Utilisateur"
 
 #: core/models.py:53
 msgid "users"
-msgstr ""
+msgstr "Utilisateurs"
 
 #: core/templates/account/account_inactive.html:5
 #: core/templates/account/account_inactive.html:8
 msgid "Account Inactive"
-msgstr ""
+msgstr "Compte inactif"
 
 #: core/templates/account/account_inactive.html:10
 msgid "This account is inactive."
-msgstr ""
+msgstr "Ce compte est inactif"
 
 #: core/templates/account/email.html:5
 msgid "Account"
-msgstr ""
+msgstr "Compte"
 
 #: core/templates/account/email.html:8
 msgid "E-mail Addresses"
-msgstr ""
+msgstr "Adresses électroniques"
 
 #: core/templates/account/email.html:10
 msgid "The following e-mail addresses are associated with your account:"
-msgstr ""
+msgstr "Les adresses électroniques suivantes sont associées à votre compte"
 
 #: core/templates/account/email.html:24
 msgid "Verified"
-msgstr ""
+msgstr "Vérifié"
 
 #: core/templates/account/email.html:26
 msgid "Unverified"
-msgstr ""
+msgstr "Non vérifié"
 
 #: core/templates/account/email.html:28
 msgid "Primary"
-msgstr ""
+msgstr "Primaire"
 
 #: core/templates/account/email.html:34
 msgid "Make Primary"
-msgstr ""
+msgstr "Rendre primaire"
 
 #: core/templates/account/email.html:35
 msgid "Re-send Verification"
-msgstr ""
+msgstr "Renvoyer la vérification"
 
 #: core/templates/account/email.html:36
 msgid "Remove"
-msgstr ""
+msgstr "Supprimer"
 
 #: core/templates/account/email.html:43
 msgid "Warning:"
-msgstr ""
+msgstr "Avertissement"
 
 #: core/templates/account/email.html:43
 msgid ""
 "You currently do not have any e-mail address set up. You should really add "
 "an e-mail address so you can receive notifications, reset your password, etc."
-msgstr ""
+msgstr "Vous n'avez actuellement aucune adresse de courrier électronique configurée.Vous devriez ajouter"
+"une adresse électronique permettant de recevoir des notifications, de réinitialiser votre mot de passe, etc."
 
 #: core/templates/account/email.html:48
 msgid "Add E-mail Address"
-msgstr ""
+msgstr "Ajouter une adresse électronique"
 
 #: core/templates/account/email.html:53
 msgid "Add E-mail"
-msgstr ""
+msgstr "Ajouter un e-mail"
 
 #: core/templates/account/email.html:62
 msgid "Do you really want to remove the selected e-mail address?"
-msgstr ""
+msgstr "Souhaitez-vous vraiment supprimer l'adresse électronique sélectionnée?"
 
 #: core/templates/account/email/email_confirmation_message.txt:1
 #, python-format
@@ -152,17 +153,23 @@ msgid ""
 "\n"
 "To confirm this is correct, go to %(activate_url)s\n"
 msgstr ""
-
+"Bonjour de %(nom_du_site)s!\n"
+"\n"
+"Vous recevez cet e-mail parce que l'utilisateur %(user_display)s a donné vôtre.
+"une adresse électronique pour connecter leur compte. \n"
+"\n"
+"Pour confirmer que c'est correct, allez à %(activate_url)s\n"
 #: core/templates/account/email/email_confirmation_message.txt:7
 #, python-format
 msgid ""
 "Thank you from %(site_name)s!\n"
 "%(site_domain)s"
 msgstr ""
-
+"Merci de la part de %(nom_du_site)s!\n"
+"%(site_domaine)s"
 #: core/templates/account/email/email_confirmation_subject.txt:3
 msgid "Please Confirm Your E-mail Address"
-msgstr ""
+msgstr "Veuillez confirmer votre adresse électronique"
 
 #: core/templates/account/email/password_reset_key_message.txt:1
 #, python-format
@@ -174,11 +181,17 @@ msgid ""
 "It can be safely ignored if you did not request a password reset. Click the "
 "link below to reset your password."
 msgstr ""
+"Bonjour de %(nom_du_site)s!\n"
+"\n"
+"Vous recevez ce courrier électronique parce que vous ou quelqu'un d'autre a demandé une "
+"mot de passe pour votre compte d'utilisateur.\n"
+"Il peut être ignoré en toute sécurité si vous n'avez pas demandé une réinitialisation du mot de passe. Cliquez sur le bouton "
+"lien ci-dessous pour réinitialiser votre mot de passe".
 
 #: core/templates/account/email/password_reset_key_message.txt:8
 #, python-format
 msgid "In case you forgot, your username is %(username)s."
-msgstr ""
+msgstr "Au cas où vous auriez oublié, votre nom d'utilisateur est %(username)s."
 
 #: core/templates/account/email/password_reset_key_message.txt:10
 #, python-format
@@ -186,15 +199,17 @@ msgid ""
 "Thank you for using %(site_name)s!\n"
 "%(site_domain)s"
 msgstr ""
+"Merci d'utiliser %(nom_du_site)s!\n"
+"%(site_domaine)s"
 
 #: core/templates/account/email/password_reset_key_subject.txt:3
 msgid "Password Reset E-mail"
-msgstr ""
+msgstr "Réinitialisation du mot de passe E-mail"
 
 #: core/templates/account/email_confirm.html:6
 #: core/templates/account/email_confirm.html:10
 msgid "Confirm E-mail Address"
-msgstr ""
+msgstr "Confirmer l'adresse électronique"
 
 #: core/templates/account/email_confirm.html:16
 #, python-format
@@ -202,10 +217,12 @@ msgid ""
 "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
 "address for user %(user_display)s."
 msgstr ""
+"Veuillez confirmer que <a href=\"mailto:%(email)s\">%(email)s</a> est un e-mail"
+"adresse de l'utilisateur %(user_display)s."
 
 #: core/templates/account/email_confirm.html:20
 msgid "Confirm"
-msgstr ""
+msgstr "Confirmer"
 
 #: core/templates/account/email_confirm.html:27
 #, python-format
@@ -213,27 +230,29 @@ msgid ""
 "This e-mail confirmation link expired or is invalid. Please <a href="
 "\"%(email_url)s\">issue a new e-mail confirmation request</a>."
 msgstr ""
+"Ce lien de confirmation par e-mail a expiré ou n'est pas valide. Veuillez <a href="
+"\"%(email_url)s\">émettre une nouvelle demande de confirmation par e-mail</a>."
 
 #: core/templates/account/login.html:8 core/templates/account/login.html:35
 #: core/templates/registration/login.html:8
 #: core/templates/registration/login.html:35
 msgid "Sign In"
-msgstr ""
+msgstr "Se connecter"
 
 #: core/templates/account/login.html:22
 #: core/templates/registration/login.html:22
-msgid "Welcome Back !"
-msgstr ""
+msgid "Welcome Back!"
+msgstr "Bienvenue à nouveau!"
 
 #: core/templates/account/login.html:23
 #: core/templates/registration/login.html:23
-msgid "Sign in to continue to My Money."
-msgstr ""
+msgid "Sign in to continue to My Money"
+msgstr "Connectez-vous pour continuer à accéder à My Money"
 
 #: core/templates/account/login.html:34
 #: core/templates/registration/login.html:34
 msgid "Forgot Password?"
-msgstr ""
+msgstr "Oublié votre mot de passe?"
 
 #: core/templates/account/login.html:43
 #, python-format
@@ -241,60 +260,62 @@ msgid ""
 " If you have not created an account yet, then please<a href=\"%(signup_url)s"
 "\" class=\"text-primary\"> \"Signup Now\" </a> "
 msgstr ""
+" Si vous n'avez pas encore créé de compte, alors veuillez <a href=\"%(signup_url)s"
+"\" class=\"text-primary\"> "Signup Now" </a> "
 
 #: core/templates/account/logout.html:6 core/templates/account/logout.html:20
 #: core/templates/account/logout.html:29
 msgid "Sign Out"
-msgstr ""
+msgstr "Déconnexion"
 
 #: core/templates/account/logout.html:22
 msgid "Are you sure you want to sign out?"
-msgstr ""
+msgstr "Vous êtes sûr de vouloir signer?"
 
 #: core/templates/account/messages/cannot_delete_primary_email.txt:2
 #, python-format
-msgid "You cannot remove your primary e-mail address (%(email)s)."
-msgstr ""
+msgid "You cannot remove your primary e-mail address (%(email)s)"
+msgstr "Vous ne pouvez pas supprimer votre adresse électronique principale (%(email)s)"
 
 #: core/templates/account/messages/email_confirmation_sent.txt:2
 #, python-format
-msgid "Confirmation e-mail sent to %(email)s."
-msgstr ""
+msgid "Confirmation e-mail sent to %(email)s"
+msgstr "Courriel de confirmation envoyé à %(email)s"
 
 #: core/templates/account/messages/email_confirmed.txt:2
 #, python-format
 msgid "You have confirmed %(email)s."
-msgstr ""
+msgstr "Vous avez confirmé %(email)s"
 
 #: core/templates/account/messages/email_deleted.txt:2
 #, python-format
 msgid "Removed e-mail address %(email)s."
-msgstr ""
+msgstr "Adresse électronique supprimée %(email)s"
 
 #: core/templates/account/messages/logged_in.txt:4
 #, python-format
-msgid "Successfully signed in as %(name)s."
-msgstr ""
+msgid "Successfully signed in as %(name)s"
+msgstr "Signée avec succès en tant que %(nom)s"
 
 #: core/templates/account/messages/logged_out.txt:2
 msgid "You have signed out."
-msgstr ""
+msgstr "se déconnecter"
 
 #: core/templates/account/messages/password_changed.txt:2
 msgid "Password successfully changed."
-msgstr ""
+msgstr "Changement de mot de passe réussi"
 
 #: core/templates/account/messages/password_set.txt:2
 msgid "Password successfully set."
-msgstr ""
+msgstr "Mot de passe défini avec succès"
 
 #: core/templates/account/messages/primary_email_set.txt:2
 msgid "Primary e-mail address set."
-msgstr ""
+msgstr "Adresse électronique principale définie"
 
 #: core/templates/account/messages/unverified_primary_email.txt:2
 msgid "Your primary e-mail address must be verified."
-msgstr ""
+msgstr "Votre adresse électronique principale doit être vérifiée"
 
 #: core/templates/account/password_change.html:8
 #: core/templates/account/password_change.html:33
@@ -303,11 +324,11 @@ msgstr ""
 #: core/templates/account/password_reset_from_key_done.html:4
 #: core/templates/account/password_reset_from_key_done.html:7
 msgid "Change Password"
-msgstr ""
+msgstr "Changer le mot de passe"
 
 #: core/templates/account/password_change.html:22
-msgid "Change Password !"
-msgstr ""
+msgid "Change Password!"
+msgstr "Changez de mot de passe!"
 
 #: core/templates/account/password_change.html:41
 #: core/templates/account/password_set.html:43
@@ -317,37 +338,43 @@ msgid ""
 "If you have not created an account yet, then please<a href=\"%(signup_url)s"
 "\" class=\"text-primary\"> Signup Now </a> "
 msgstr ""
+"Si vous n'avez pas encore créé de compte, alors please<a href=\"%(signup_url)s"
+"\" class=\"text-primary\"> Inscrivez-vous maintenant </a> "
 
 #: core/templates/account/password_reset.html:8
 #: core/templates/account/password_reset_done.html:6
 #: core/templates/account/password_reset_done.html:9
 msgid "Password Reset"
-msgstr ""
+msgstr "Réinitialisation du mot de passe"
 
 #: core/templates/account/password_reset.html:25
 msgid ""
 "Forgotten your password? Enter your e-mail address below, and we'll send you "
 "an e-mail allowing you to reset it."
 msgstr ""
+"Vous avez oublié votre mot de passe ? Entrez votre adresse e-mail ci-dessous, et nous vous enverrons "
+"un e-mail vous permettant de le réinitialiser"
 
 #: core/templates/account/password_reset.html:38
 #: core/templates/account/password_reset.html:39
 msgid "Reset My Password"
-msgstr ""
+msgstr "Réinitialiser mon mot de passe"
 
 #: core/templates/account/password_reset.html:41
 msgid "Please contact us if you have any trouble resetting your password."
-msgstr ""
+msgstr "Veuillez nous contacter si vous avez des difficultés à réinitialiser votre mot de passe"
 
 #: core/templates/account/password_reset_done.html:15
 msgid ""
 "We have sent you an e-mail. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
+"Nous vous avons envoyé un e-mail. Veuillez nous contacter si vous ne le recevez pas".
+"dans quelques minutes."
 
 #: core/templates/account/password_reset_from_key.html:8
 msgid "Bad Token"
-msgstr ""
+msgstr "Mauvais jeton"
 
 #: core/templates/account/password_reset_from_key.html:12
 #, python-format
@@ -356,40 +383,43 @@ msgid ""
 "used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
 "a>."
 msgstr ""
+"Le lien de réinitialisation du mot de passe n'était pas valide, peut-être parce qu'il l'a déjà été"
+"utilisé.  Veuillez demander une <a href=\"%(passwd_reset_url)s\">nouvelle réinitialisation du mot de passe</"
+"a>."
 
 #: core/templates/account/password_reset_from_key.html:20
 #: investor/templates/inv.html:161 partner/templates/pa.html:172
 #: ra/templates/base1.html:157 user/templates/based.html:164
 msgid "change password"
-msgstr ""
+msgstr "changer de mot de passe"
 
 #: core/templates/account/password_reset_from_key.html:23
 #: core/templates/account/password_reset_from_key_done.html:8
 msgid "Your password is now changed."
-msgstr ""
+msgstr "Votre mot de passe est désormais modifié"
 
 #: core/templates/account/password_set.html:7
 #: core/templates/account/password_set.html:21
 #: core/templates/account/password_set.html:34
 msgid "Set Password"
-msgstr ""
+msgstr "Set Password"
 
 #: core/templates/account/signup.html:6 home/templates/in.html:50
 #: home/templates/newhm.html:57
 msgid "Signup"
-msgstr ""
+msgstr "Inscription"
 
 #: core/templates/account/signup.html:18
 msgid "Free Register"
-msgstr ""
+msgstr "Inscription gratuite"
 
 #: core/templates/account/signup.html:19
 msgid "Get your My Money account now."
-msgstr ""
+msgstr "Obtenez votre compte My Money maintenant"
 
 #: core/templates/account/signup.html:30 home/templates/base3.html:29
 msgid "Sign Up"
-msgstr ""
+msgstr "S'inscrire"
 
 #: core/templates/account/signup.html:38
 #, python-format
@@ -397,32 +427,34 @@ msgid ""
 "Already have an account? Then please <a href=\"%(login_url)s\" class=\"text-"
 "primary\">sign in</a>."
 msgstr ""
+"Vous avez déjà un compte ? Alors veuillez <a href=\"%(login_url)s\" class=\"text-"
+"primary\">sign in</a>."
 
 #: core/templates/account/signup_closed.html:5
 #: core/templates/account/signup_closed.html:8
 msgid "Sign Up Closed"
-msgstr ""
+msgstr "Inscription fermée"
 
 #: core/templates/account/signup_closed.html:10
 msgid "We are sorry, but the sign up is currently closed."
-msgstr ""
+msgstr "Nous sommes désolés, mais l'inscription est actuellement fermée"
 
 #: core/templates/account/snippets/already_logged_in.html:5
 #: investor/templates/investor/investedin-detail.html:76
 msgid "Note"
-msgstr ""
+msgstr "Note"
 
 #: core/templates/account/snippets/already_logged_in.html:5
 #, python-format
 msgid "you are already logged in as %(user_display)s."
-msgstr ""
+msgstr "vous êtes déjà connecté en tant que %(user_display)s"
 
 #: core/templates/account/verification_sent.html:5
 #: core/templates/account/verification_sent.html:8
 #: core/templates/account/verified_email_required.html:5
 #: core/templates/account/verified_email_required.html:8
 msgid "Verify Your E-mail Address"
-msgstr ""
+msgstr "Vérifiez votre adresse électronique"
 
 #: core/templates/account/verification_sent.html:10
 msgid ""
@@ -430,6 +462,9 @@ msgid ""
 "finalize the signup process. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
+"Nous vous avons envoyé un e-mail pour vérification. Suivez le lien fourni pour "
+"finaliser le processus d'inscription. Veuillez nous contacter si vous ne le recevez pas "
+"dans quelques minutes."
 
 #: core/templates/account/verified_email_required.html:12
 msgid ""
@@ -437,6 +472,9 @@ msgid ""
 "you are who you claim to be. For this purpose, we require that you\n"
 "verify ownership of your e-mail address. "
 msgstr ""
+"Cette partie du site nous oblige à vérifier que
+"vous êtes ce que vous prétendez être. À cette fin, nous exigeons que vous"
+"vérifier la propriété de votre adresse électronique. "
 
 #: core/templates/account/verified_email_required.html:16
 msgid ""
@@ -444,6 +482,9 @@ msgid ""
 "verification. Please click on the link inside this e-mail. Please\n"
 "contact us if you do not receive it within a few minutes."
 msgstr ""
+"Nous vous avons envoyé un e-mail pour
+"vérification". Veuillez cliquer sur le lien à l'intérieur de ce courriel. S'il vous plaît.
+"Contactez-nous si vous ne le recevez pas dans les minutes qui suivent".
 
 #: core/templates/account/verified_email_required.html:20
 #, python-format
@@ -451,131 +492,143 @@ msgid ""
 "<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
 "mail address</a>."
 msgstr ""
+"<strong>Note:</strong> vous pouvez toujours <a href=\"%(email_url)s\">changer votre e-"
+"adresse e-mail</a>."
 
 #: core/templates/core/403.html:6
 msgid "You are not allowed to view this page"
-msgstr ""
+msgstr "Vous n'êtes pas autorisé à consulter cette page"
 
 #: core/templates/core/403.html:20
 msgid "Sorry, You are not allowed to view this page"
-msgstr ""
+msgstr "Désolé, vous n'êtes pas autorisé à voir cette page"
 
 #: core/templates/core/403.html:22 core/templates/core/404.html:22
 #: core/templates/core/500.html:22
 msgid "Back to Home"
-msgstr ""
+msgstr "Retour à la page d'accueil"
 
 #: core/templates/core/404.html:6
 msgid "Page Not available"
-msgstr ""
+msgstr "Page non disponible"
 
 #: core/templates/core/404.html:20 core/templates/core/500.html:20
 msgid "Sorry, Page can't be found"
-msgstr ""
+msgstr "Désolé, la page n'est pas disponible"
 
 #: core/templates/core/500.html:6
 msgid "500 Error"
-msgstr ""
+msgstr "500 Erreur"
 
 #: core/templates/core/feedback_form.html:6
 #: core/templates/core/feedback_form.html:15
 msgid "Contact & Feedback "
-msgstr ""
+msgstr "Contact et commentaires"
 
 #: core/templates/core/feedback_form.html:18
 #: core/templates/core/subscriber_form.html:18 core/templates/core/user.html:19
 #: core/templates/core/user_form.html:18
 msgid "My Money Dashboard"
-msgstr ""
+msgstr "Mon tableau My Money"
 
 #: core/templates/core/subscriber_form.html:15 home/templates/in.html:271
 #: home/templates/newhm.html:257 user/templates/based.html:146
 msgid "Subscribe"
-msgstr ""
+msgstr "S'abonner"
 
 #: core/templates/core/subscriber_form.html:37
 msgid "subscribe"
-msgstr ""
+msgstr "S'abonner"
 
 #: core/templates/core/user.html:6 core/templates/core/user_form.html:6
 #: investor/templates/investor/user_form.html:6
 msgid "Edit profile"
-msgstr ""
+msgstr "Modifier le profil"
 
 #: core/templates/core/user.html:16 core/templates/core/user_form.html:15
 msgid "Camp Authority Profile"
-msgstr ""
+msgstr "Profil de l'autorité du camp"
 
 #: core/templates/core/user_form.html:37
 msgid "update"
-msgstr ""
+msgstr "mise à jour"
 
 #: home/templates/base3.html:25
 msgid "Log out"
-msgstr ""
+msgstr "Déconnexion"
 
 #: home/templates/base3.html:28 home/templates/in.html:50
 #: home/templates/newhm.html:57
 msgid "Login"
-msgstr ""
+msgstr "Connexion"
 
 #: home/templates/home/abo.html:30
 msgid "High repayment rates"
-msgstr ""
+msgstr "Des taux de remboursement élevés"
 
 #: home/templates/home/abo.html:31
 msgid ""
 "The loan repayment rates for refugee women are as high as those for non-"
 "refugee women."
 msgstr ""
+"Les taux de remboursement des prêts pour les femmes réfugiées sont aussi élevés que ceux des femmes non réfugiées"
+"femmes réfugiées".
 
 #: home/templates/home/abo.html:39
 msgid "Technological solutions"
-msgstr ""
+msgstr "Solutions technologiques"
 
 #: home/templates/home/abo.html:40
 msgid ""
 "Digital technologies can significantly improve financial services for "
 "refugee women."
 msgstr ""
+"Les technologies numériques peuvent améliorer de manière significative les services financiers pour
+"femmes réfugiées".
 
 #: home/templates/home/abo.html:48
 msgid "New research"
-msgstr ""
+msgstr "Nouvelles recherches"
 
 #: home/templates/home/abo.html:49
 msgid ""
 "New funding research tells us that it is time for the financial sector to "
 "think about making investments in refugee women."
 msgstr ""
+"Les nouvelles recherches sur le financement nous indiquent qu'il est temps pour le secteur financier de "
+"pensez à investir dans les femmes réfugiées".
 
 #: home/templates/home/abo.html:57
 msgid "Innovation competitions"
-msgstr ""
+msgstr "Concours d'innovation"
 
 #: home/templates/home/abo.html:58
 msgid ""
 "Competition for innovation brings new financial services to refugee camp "
 "zones."
 msgstr ""
+"La concurrence pour l'innovation apporte de nouveaux services financiers dans les camps de réfugiés"
+"zones".
 
 #: home/templates/home/about-us.html:4 home/templates/home/about-us.html:5
 msgid "About Us"
-msgstr ""
+msgstr "À propos de nous"
 
 #: home/templates/home/about-us.html:16
 msgid "Techsolvers Company profile:"
-msgstr ""
+msgstr "Techsolvers Profil"
 
 #: home/templates/home/about-us.html:17
 msgid ""
 "Techsolver was created by three young women living in Kigali 2019, after "
 "winning the hackathon competition \\"
 msgstr ""
+"Techsolver a été créé par trois jeunes dames vivant à Kigali 2019, après "
+"gagner le concours du hackathon"
 
 #: home/templates/home/about-us.html:27
 msgid "Mission:"
-msgstr ""
+msgstr "Mission"
 
 #: home/templates/home/about-us.html:28
 msgid ""
@@ -583,10 +636,13 @@ msgid ""
 "women to financial opportunities and Market as well as Empower and sustain "
 "women through financial inclusion”."
 msgstr ""
+"Notre mission principale est de "supprimer les obstacles à l'accès au financement en reliant" les
+"les femmes aux opportunités financières et au marché ainsi qu'à l'autonomisation et au soutien"
+"les femmes par l'inclusion financière".
 
 #: home/templates/home/about-us.html:36
 msgid "Our Vision"
-msgstr ""
+msgstr "Notre vision"
 
 #: home/templates/home/about-us.html:37
 msgid ""
@@ -594,10 +650,14 @@ msgid ""
 "supportive of refugees through financial inclusion and scale up by the end "
 "of 2025. "
 msgstr ""
+"Construire une application web et mobile de haute qualité qui soit réactive et"
+"soutenir les réfugiés par l'inclusion financière et l'intensification de l'aide d'ici à la fin"
+"de 2025. "
 
 #: home/templates/home/about-us.html:45
 msgid "Our value"
-msgstr ""
+msgstr "Notre valeur"
+
 
 #: home/templates/home/about-us.html:46
 msgid ""
@@ -605,57 +665,65 @@ msgid ""
 "focused coupled with ICT and we are part of the community of women leaders "
 "in ICT"
 msgstr ""
-
+"Nous promouvons la vie par la technologie avec la touche féminine de l'attention et de l'être".
+"centrée sur les ICT et nous faisons partie de la communauté des femmes leaders"
+"dans les ICT
 #: home/templates/home/about-us.html:55
 msgid ""
 "We promote life through technology by involving women, focusing on women's "
 "needs in ICTs, and we are part of the community of women ICT leaders."
 msgstr ""
+"Nous promouvons la vie grâce à la technologie en impliquant les femmes, en mettant l'accent sur les droits des femmes".
+"les besoins en matière de TIC, et nous faisons partie de la communauté des femmes leaders en ICT".
 
 #: home/templates/home/fsc.html:70
 msgid "Problem-Solving Skills"
-msgstr ""
+msgstr "Compétences en matière de résolution de problèmes"
 
 #: home/templates/home/fsc.html:101
 msgid "Customer service Skills"
-msgstr ""
+msgstr "Compétences en matière de service à la clientèle"
 
 #: home/templates/home/fsc.html:131
 msgid "Microsoft Office Skills."
-msgstr ""
+msgstr "Compétences Microsoft Office"
 
 #: home/templates/home/fsc.html:168
 msgid "Creativity Skills."
-msgstr ""
+msgstr "Compétences en matière de créativité"
 
 #: home/templates/home/fsc.html:236
 msgid "Communication Skills."
-msgstr ""
+msgstr "Compétences en matière de communication"
 
 #: home/templates/home/fsc.html:237
 msgid ""
 "As they may sell the portfolio, and organize an exhibition, they need to "
 "improve in communication skills "
 msgstr ""
+"Comme ils peuvent vendre le portefeuille et organiser une exposition, ils doivent"
+"améliorer les compétences en matière de communication"
 
 #: home/templates/home/fsc.html:270
 msgid "Interpersonal Skills."
-msgstr ""
+msgstr "Compétences interpersonnelles"
 
 #: home/templates/home/fsc.html:271
 msgid ""
 "Are every day when we interact with other people, both individually and in "
 "groups."
 msgstr ""
+"sont tous les jours lorsque nous interagissons avec d'autres personnes, à la fois individuellement et en
+"groupes".
 
 #: home/templates/home/iandr.html:20
 #: investor/templates/investor/buzzplan-detail.html:155
 msgid "Investment"
-msgstr ""
+msgstr "Investissement"
 
 #: home/templates/home/iandr.html:21
 msgid "Access to finance empowers women refugees"
-msgstr ""
+msgstr "L'accès au financement renforce l'autonomie des femmes réfugiées"
 
 #: home/templates/home/iandr.html:26
 msgid ""
@@ -664,62 +732,66 @@ msgid ""
 "perceived as high-risk individuals, they have difficulty accessing finance. "
 "TechSolver proves that loans to refugees can be profitable."
 msgstr ""
+"Les services financiers jouent un rôle clé dans l'établissement de populations de femmes réfugiées,
+"Le Rwanda est plus résistant à l'adversité. Cependant, parce que les femmes réfugiées sont "
+"perçus comme des individus à haut risque, ils ont des difficultés à accéder aux financements. "
+"TechSolver prouve que les prêts aux réfugiés peuvent être rentables".
 
 #: home/templates/home/index.html:144
 msgid "Submit your idea today to your camp"
-msgstr ""
+msgstr "Soumettez votre idée dès aujourd'hui à votre camp"
 
 #: home/templates/home/index.html:144
 msgid "using the below link"
-msgstr ""
+msgstr "à l'aide du lien ci-dessous"
 
 #: home/templates/home/index.html:165
 msgid "Sell your idea"
-msgstr ""
+msgstr "Vendez votre idée"
 
 #: home/templates/home/index.html:186 home/templates/home/index.html:272
 msgid "Learn more"
-msgstr ""
+msgstr "En savoir plus"
 
 #: home/templates/home/index.html:210
 msgid "Are you Investor"
-msgstr ""
+msgstr "Êtes-vous un investisseur"
 
 #: home/templates/home/index.html:210
 msgid "See ideas to invest in."
-msgstr ""
+msgstr "Voyez des idées ou investir"
 
 #: home/templates/home/index.html:251
 msgid "Invest"
-msgstr ""
+msgstr "Investissez"
 
 #: home/templates/home/index.html:288
 msgid "Write your idea"
-msgstr ""
+msgstr "Ecrivez votre idée"
 
 #: home/templates/home/index.html:289
 msgid "Write or draft your business idea by answering the questions"
-msgstr ""
+msgstr "Ecrivez ou rédigez votre idée d'entreprise en répondant aux questions"
 
 #: home/templates/home/index.html:295
 msgid "Send it to your camp's RA"
-msgstr ""
+msgstr "Envoyez-le à l'autorité de régulation de votre camp"
 
 #: home/templates/home/index.html:296
 msgid "Refugee authority will review and approve your business"
-msgstr ""
+msgstr "L'autorité chargée des réfugiés examinera et approuvera votre entreprise"
 
 #: home/templates/home/index.html:302
 msgid "Investors & Partners"
-msgstr ""
+msgstr "Investisseurs et partenaires"
 
 #: home/templates/home/index.html:303
 msgid "investor"
-msgstr ""
+msgstr "investisseur"
 
 #: home/templates/home/index.html:323
 msgid "Women financial inclusion"
-msgstr ""
+msgstr "Inclusion financière des femmes"
 
 #: home/templates/home/index.html:324
 msgid ""
@@ -728,96 +800,104 @@ msgid ""
 "include but not limited to requesting for a loan, saving, debiting and "
 "crediting.  "
 msgstr ""
+"Il a été conçu pour encourager et responsabiliser ses utilisateurs en leur fournissant "
+"les affaires, les informations financières et les opportunités. Ces opportunités "
+" comprennent, sans s'y limiter, la demande de prêt, l'épargne, le débit et "
+"crédit".  "
 
 #: home/templates/home/index.html:326
 msgid "get financial literacy workshops"
-msgstr ""
+msgstr "obtenir des séminaires d'éducation financière"
 
 #: home/templates/home/index.html:327
 msgid "resenting their projects to get funds"
-msgstr ""
+msgstr "en envoyant leurs projets pour obtenir des fonds"
 
 #: home/templates/home/index.html:342
 msgid "some"
-msgstr ""
+msgstr "quelques"
 
 #: home/templates/home/index.html:342
 msgid "Testimonials"
-msgstr ""
+msgstr "Témoignages"
 
 #: home/templates/home/index.html:343
 msgid "What people say about us"
-msgstr ""
+msgstr "Ce qu'on dit de nous"
 
 #: home/templates/home/index.html:373
 msgid "Business Idea"
-msgstr ""
+msgstr "Idée d'affaire"
 
 #: home/templates/home/index.html:373
 msgid "To invest in"
-msgstr ""
+msgstr "Pour investir en"
 
 #: home/templates/home/index.html:374
 msgid "Business idea to invest in"
-msgstr ""
+msgstr "Idée d'entreprise ou investir"
 
 #: home/templates/home/index.html:399
 msgid "View All"
-msgstr ""
+msgstr "Tout voir"
 
 #: home/templates/home/index.html:411
 msgid "Latest"
-msgstr ""
+msgstr "Dernières actualités"
 
 #: home/templates/home/index.html:411
 msgid "News/Articles"
-msgstr ""
+msgstr "Actualités/Articles"
 
 #: home/templates/home/merch.html:4 home/templates/home/merch.html:5
 msgid "Merchandise"
-msgstr ""
+msgstr "Marchandises"
 
 #: home/templates/home/news-entertainment.html:4
 #: home/templates/home/news-entertainment.html:5
 msgid "Entertainment News"
-msgstr ""
+msgstr "Actualités du divertissement"
 
 #: home/templates/home/news-entertainment.html:24
 msgid "Read More"
-msgstr ""
+msgstr "Lire la suite"
 
 #: home/templates/home/news-partners.html:4
 #: home/templates/home/news-partners.html:5
 msgid "Partners News"
-msgstr ""
+msgstr "Actualités des partenaires"
 
 #: home/templates/home/project.html:4 home/templates/home/project.html:5
 msgid "Partners News "
-msgstr ""
+msgstr "Actualités des partenaires"
 
 #: home/templates/home/team.html:43
 msgid "Managing Director of TechsoLver"
-msgstr ""
+msgstr "Directeur général de TechsoLver"
 
 #: home/templates/home/team.html:44
 msgid ""
 "Very concerned when she sees women suffering, she always likes to see a "
 "smile on a woman's face."
 msgstr ""
+"Très préoccupée lorsqu'elle voit des femmes souffrir, elle aime toujours voir une "
+"Sourire sur le visage d'une femme".
 
 #: home/templates/home/team.html:52
 msgid "Developer and QA Tester"
-msgstr ""
+msgstr "Développeur et testeur AQ"
 
 #: home/templates/home/team.html:53
 msgid ""
-"She is always repeating \\“Women shouldn't be afraid to put themselves "
-"forward. \\”"
+"She is always repeating “Women shouldn't be afraid to put themselves "
+"forward.”"
 msgstr ""
+"Elle répète sans cesse : "Les femmes ne doivent pas avoir peur de se mettre en avant".
+"en avant".
 
 #: home/templates/home/team.html:61
 msgid " Developer and Test engineer"
-msgstr ""
+msgstr "Développeur et ingénieur d'essai"
 
 #: home/templates/home/team.html:62
 msgid ""
@@ -825,10 +905,13 @@ msgid ""
 "financial side unsecure. Too many people are overanalyzing. Who knows "
 "Sometimes you just have to go for it."
 msgstr ""
+"Parfois, nous ne saisissons pas les occasions qui se présentent parce que le moment est mal choisi.
+"côté financier non sécurisé. Trop de gens font des analyses excessives. Qui sait ?
+"Parfois, il faut juste foncer."
 
 #: home/templates/in.html:44 home/templates/newhm.html:51
 msgid "Email"
-msgstr ""
+msgstr "Courriel "
 
 #: home/templates/in.html:48 home/templates/newhm.html:55
 #: investor/templates/inv.html:117
@@ -837,507 +920,509 @@ msgstr ""
 #: ra/templates/base1.html:118 user/templates/based.html:117
 #: user/templates/user/index.html:11
 msgid "Dashboard"
-msgstr ""
+msgstr "Tableau de bord"
 
 #: home/templates/in.html:70 home/templates/in.html:174
 #: home/templates/newhm.html:77 home/templates/newhm.html:181
 msgid "Home"
-msgstr ""
+msgstr "Accueil"
 
 #: home/templates/in.html:72 home/templates/in.html:176
 #: home/templates/in.html:262 home/templates/newhm.html:79
 #: home/templates/newhm.html:183 home/templates/newhm.html:248
 msgid "About us"
-msgstr ""
+msgstr "À propos de nous"
 
 #: home/templates/in.html:74 home/templates/in.html:178
 #: home/templates/newhm.html:81 home/templates/newhm.html:185
 msgid "Company Profile"
-msgstr ""
+msgstr "Profil de l'entreprise"
 
 #: home/templates/in.html:76 home/templates/in.html:179
 #: home/templates/newhm.html:83 home/templates/newhm.html:186
 msgid "Our team"
-msgstr ""
+msgstr "Notre équipe"
 
 #: home/templates/in.html:82 home/templates/in.html:184
 #: home/templates/in.html:263 home/templates/newhm.html:89
 #: home/templates/newhm.html:191 home/templates/newhm.html:249
 msgid "Services"
-msgstr ""
+msgstr "Services"
 
 #: home/templates/in.html:84 home/templates/in.html:186
 #: home/templates/newhm.html:91 home/templates/newhm.html:193
 msgid "Access to Business opportunities"
-msgstr ""
+msgstr "Accès aux opportunités d'affaires"
 
 #: home/templates/in.html:86 home/templates/in.html:187
 #: home/templates/newhm.html:93 home/templates/newhm.html:194
 msgid "Financial Skills & Coaching"
-msgstr ""
+msgstr "Compétences financières et coaching"
 
 #: home/templates/in.html:92 home/templates/in.html:192
 #: home/templates/newhm.html:99 home/templates/newhm.html:199
 msgid "News"
-msgstr ""
+msgstr "Actualités"
 
 #: home/templates/in.html:94 home/templates/in.html:194
 #: home/templates/newhm.html:101 home/templates/newhm.html:201
 msgid "Entertainment"
-msgstr ""
+msgstr "Loisirs"
 
 #: home/templates/in.html:96 home/templates/in.html:196
 #: home/templates/newhm.html:103 home/templates/newhm.html:203
-msgid "Testemonies"
-msgstr ""
+msgid "Testimonies"
+msgstr "Témoignages"
 
 #: home/templates/in.html:103 home/templates/in.html:203
 #: home/templates/in.html:211 home/templates/newhm.html:110
 #: home/templates/newhm.html:210 home/templates/newhm.html:218
 msgid "Merchandises"
-msgstr ""
+msgstr "Marchandises"
 
 #: home/templates/in.html:161
 msgid "change"
-msgstr ""
+msgstr "modifiez"
 
 #: home/templates/in.html:254 home/templates/newhm.html:240
 msgid ""
 "My Money is a digital platform which bridges the financial exclusion of "
 "refugees women."
 msgstr ""
+"My Money est une plateforme numérique qui permet de lutter contre l'exclusion financière des
+"femmes réfugiées".
 
 #: home/templates/in.html:260 home/templates/newhm.html:246
 msgid "Useful Links"
-msgstr ""
+msgstr "Liens utiles"
 
 #: home/templates/in.html:264 home/templates/newhm.html:250
 #: investor/templates/investor/index.html:95
 msgid "Contact"
-msgstr ""
+msgstr "Contactez"
 
 #: home/templates/in.html:309 home/templates/newhm.html:295
 msgid "All Right Reserved."
-msgstr ""
+msgstr "Tous droits réservés"
 
 #: home/templates/newhm.html:168
 msgid "Change"
-msgstr ""
+msgstr "Modifiez"
 
 #: investor/templates/inv.html:84 partner/templates/pa.html:84
 #: ra/templates/base1.html:85
 msgid "Logout"
-msgstr ""
+msgstr "Déconnexion"
 
 #: investor/templates/inv.html:123
 msgid "Update Company profile"
-msgstr ""
+msgstr "Mise à jour du profil de l'entreprise"
 
 #: investor/templates/inv.html:129
 msgid "Company profile "
-msgstr ""
+msgstr "Profil de l'entreprise"
 
 #: investor/templates/inv.html:134
 msgid "Bucket"
-msgstr ""
+msgstr "Seau"
 
 #: investor/templates/inv.html:137 partner/templates/pa.html:148
 msgid "All Business Idea"
-msgstr ""
+msgstr "Toutes les idées d'affaires"
 
 #: investor/templates/inv.html:138 partner/templates/pa.html:149
 msgid "Idea Invested in"
-msgstr ""
+msgstr "Idée investie"
 
 #: investor/templates/inv.html:149 partner/templates/pa.html:160
 msgid "Founded Business Ideas"
-msgstr ""
+msgstr "Idées d'entreprises fondées"
 
 #: investor/templates/inv.html:151 partner/templates/pa.html:162
 msgid "Reports"
-msgstr ""
+msgstr "Rapports"
 
 #: investor/templates/inv.html:157 partner/templates/pa.html:168
 #: ra/templates/base1.html:153 user/templates/based.html:160
 msgid "Settings"
-msgstr ""
+msgstr "Paramètres"
 
 #: investor/templates/inv.html:160 partner/templates/pa.html:171
 #: ra/templates/base1.html:156 user/templates/based.html:163
 msgid "Profile"
-msgstr ""
+msgstr "Profil"
 
 #: investor/templates/investor/approved-business-plan.html:4
 #: investor/templates/investor/approved-business-plan.html:12
 #: investor/templates/investor/approved-business-plan.html:26
 #: investor/templates/investor/approved-business-plan.html:69
 msgid "Business Plan to invest in"
-msgstr ""
+msgstr "Plan d'affaires ou investir"
 
 #: investor/templates/investor/buzzplan-detail.html:4
 #: investor/templates/investor/buzzplan-detail.html:12
 #: investor/templates/investor/buzzplan-detail.html:26
 msgid "Business Idea Detail"
-msgstr ""
+msgstr "Détail de l'idée d'entreprise"
 
 #: investor/templates/investor/buzzplan-detail.html:32
 #: investor/templates/investor/investedin-detail.html:32
 msgid "Contents"
-msgstr ""
+msgstr "Sommaire"
 
 #: investor/templates/investor/buzzplan-detail.html:36
 msgid "Username"
-msgstr ""
+msgstr "Nom d'utilisateur"
 
 #: investor/templates/investor/buzzplan-detail.html:43
 msgid "camp"
-msgstr ""
+msgstr "camp"
 
 #: investor/templates/investor/buzzplan-detail.html:51
 msgid "Address"
-msgstr ""
+msgstr "Adresse"
 
 #: investor/templates/investor/buzzplan-detail.html:59
 msgid "Employment status"
-msgstr ""
+msgstr "Statut d'emploi"
 
 #: investor/templates/investor/buzzplan-detail.html:67
 msgid "Current position"
-msgstr ""
+msgstr "Situation actuelle"
 
 #: investor/templates/investor/buzzplan-detail.html:75
 #: investor/templates/investor/investedin-detail.html:52
 msgid "Problem"
-msgstr ""
+msgstr "Problème"
 
 #: investor/templates/investor/buzzplan-detail.html:83
 #: investor/templates/investor/investedin-detail.html:60
 #: investor/templates/investor/investedin.html:33
 msgid "Solution"
-msgstr ""
+msgstr "Solution"
 
 #: investor/templates/investor/buzzplan-detail.html:91
 msgid "Target buyers"
-msgstr ""
+msgstr "Acheteurs cibles"
 
 #: investor/templates/investor/buzzplan-detail.html:99
 msgid "Work into cooperatives"
-msgstr ""
+msgstr "Travailler en coopérative"
 
 #: investor/templates/investor/buzzplan-detail.html:107
 msgid "Explain how manage"
-msgstr ""
+msgstr "Expliquez comment gérer"
 
 #: investor/templates/investor/buzzplan-detail.html:115
 msgid "Employees"
-msgstr ""
+msgstr "Employés"
 
 #: investor/templates/investor/buzzplan-detail.html:123
 msgid "Benefits"
-msgstr ""
+msgstr "Bénéfices"
 
 #: investor/templates/investor/buzzplan-detail.html:131
 msgid "Features"
-msgstr ""
+msgstr "Fonctionnalités"
 
 #: investor/templates/investor/buzzplan-detail.html:139
 msgid "Potential competitors"
-msgstr ""
+msgstr "Concurrents potentiels"
 
 #: investor/templates/investor/buzzplan-detail.html:147
 msgid "Customers feedback"
-msgstr ""
+msgstr "Commentaires des clients"
 
 #: investor/templates/investor/buzzplan-detail.html:163
 msgid "Profit forecast"
-msgstr ""
+msgstr "Prévisions de bénéfices"
 
 #: investor/templates/investor/buzzplan-detail.html:171
 msgid "Financial support"
-msgstr ""
+msgstr "Aide financière"
 
 #: investor/templates/investor/buzzplan-detail.html:179
 msgid "Full names"
-msgstr ""
+msgstr "Nom et Prenom"
 
 #: investor/templates/investor/buzzplan-detail.html:203
 msgid "Interested mentor"
-msgstr ""
+msgstr "Mentor intéressé"
 
 #: investor/templates/investor/buzzplan-detail.html:227
 msgid "Informations"
-msgstr ""
+msgstr "Informations"
 
 #: investor/templates/investor/buzzplan-detail.html:235
 msgid "Other"
-msgstr ""
+msgstr "Autre"
 
 #: investor/templates/investor/buzzplan-detail.html:243
 msgid "Date created"
-msgstr ""
+msgstr "Date de création"
 
 #: investor/templates/investor/buzzplan-detail.html:257
 msgid "Edit Business plan"
-msgstr ""
+msgstr "Modifier le plan d'affaires"
 
 #: investor/templates/investor/buzzplan-detail.html:273
 msgid "Invest in"
-msgstr ""
+msgstr "Investir en"
 
 #: investor/templates/investor/index.html:5
 #: investor/templates/investor/index.html:12
 msgid "Investor Dashboard"
-msgstr ""
+msgstr "Tableau de bord des investisseurs"
 
 #: investor/templates/investor/index.html:15
 msgid "Welcome to Investor Dashboard"
-msgstr ""
+msgstr "Bienvenue au tableau des investisseurs"
 
 #: investor/templates/investor/index.html:31
 msgid "Users"
-msgstr ""
+msgstr "Utilisateurs"
 
 #: investor/templates/investor/index.html:46
 msgid "Business to invest in"
-msgstr ""
+msgstr "Entreprises où investir"
 
 #: investor/templates/investor/index.html:62
 msgid "Invested in"
-msgstr ""
+msgstr "Investis en"
 
 #: investor/templates/investor/index.html:76
 msgid "Feedbacks"
-msgstr ""
+msgstr "Réactions"
 
 #: investor/templates/investor/index.html:87
 msgid "Invested-in Business Ideas"
-msgstr ""
+msgstr "Investir dans des idées d'entreprise"
 
 #: investor/templates/investor/index.html:93
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #: investor/templates/investor/index.html:94
 msgid "Owner"
-msgstr ""
+msgstr "Propriétaire"
 
 #: investor/templates/investor/index.html:96
 #: investor/templates/investor/investedin.html:36
 msgid "Action"
-msgstr ""
+msgstr "Action"
 
 #: investor/templates/investor/investedin-detail.html:4
 #: investor/templates/investor/investedin-detail.html:12
 #: investor/templates/investor/investedin-detail.html:26
 msgid "Invest in Detail"
-msgstr ""
+msgstr "Investir en détail"
 
 #: investor/templates/investor/investedin-detail.html:36
 msgid "Name of the owner"
-msgstr ""
+msgstr "Nom du propriétaire"
 
 #: investor/templates/investor/investedin-detail.html:68
 msgid "Price"
-msgstr ""
+msgstr "Prix"
 
 #: investor/templates/investor/investedin.html:4
 #: investor/templates/investor/investedin.html:12
 #: investor/templates/investor/investedin.html:26
 msgid "InvestedIn Ideas"
-msgstr ""
+msgstr "Investissez dans les idées"
 
 #: investor/templates/investor/investedin.html:32
 msgid "Full name"
-msgstr ""
+msgstr "Nom et prénom"
 
 #: investor/templates/investor/investedin.html:34
 msgid "Status"
-msgstr ""
+msgstr "Statut"
 
 #: investor/templates/investor/investedin.html:35
 msgid "Amount"
-msgstr ""
+msgstr "Montant"
 
 #: investor/templates/investor/investedin_form.html:6
 #: investor/templates/investor/investedin_form.html:15
 msgid "Edit Invested in Business"
-msgstr ""
+msgstr "Modifiez investir dans les affaires"
 
 #: investor/templates/investor/user_form.html:15
 msgid "Investor Profile"
-msgstr ""
+msgstr "Profil de l'investisseur"
 
 #: mymoney/settings.py:125
 msgid "Ikinyarwanda"
-msgstr ""
+msgstr "Kinyarwanda"
 
 #: partner/templates/pa.html:123
 msgid "Update organization profile"
-msgstr ""
+msgstr "Mise à jour du profil de l'organisation"
 
 #: partner/templates/pa.html:129
 msgid "organization  profile"
-msgstr ""
+msgstr "profil de l'organisation"
 
 #: partner/templates/pa.html:134
 msgid "Articles"
-msgstr ""
+msgstr "Articles"
 
 #: partner/templates/pa.html:137
 msgid "All Articles"
-msgstr ""
+msgstr "Tous les articles"
 
 #: partner/templates/pa.html:138
 msgid "Add Article"
-msgstr ""
+msgstr "Ajout d'un article"
 
 #: partner/templates/partner/articles_form.html:31
 msgid "Save"
-msgstr ""
+msgstr "Sauvegardez"
 
 #: ra/templates/base1.html:122
 msgid "Partners"
-msgstr ""
+msgstr "Partenaires"
 
 #: ra/templates/base1.html:125
 msgid "All Partners"
-msgstr ""
+msgstr "Tous les partenaires"
 
 #: ra/templates/base1.html:133
 msgid "All Investors"
-msgstr ""
+msgstr "Tous les investisseurs"
 
 #: ra/templates/base1.html:140
 msgid "Business Ideas"
-msgstr ""
+msgstr "Idées d'affaires"
 
 #: ra/templates/base1.html:143
 msgid "Submitted Business Ideas"
-msgstr ""
+msgstr "Idées d'affaires soumises"
 
 #: ra/templates/base1.html:145
 msgid "Approved Business Ideas"
-msgstr ""
+msgstr "Idées d'affaires approuvées"
 
 #: ra/templates/base1.html:147
-msgid "Foundend Business Ideas"
-msgstr ""
+msgid "Funded Business Ideas"
+msgstr "Idées d'affaires financées"
 
 #: user/templates/based.html:84
 msgid " Logout"
-msgstr ""
+msgstr "Déconnexion"
 
 #: user/templates/based.html:121
 msgid " My Portfolio "
-msgstr ""
+msgstr "Mon portefeuille"
 
 #: user/templates/based.html:124
 msgid "All Portfolio"
-msgstr ""
+msgstr "Tous les portefeuilles"
 
 #: user/templates/based.html:125
 msgid "Add Portfolio"
-msgstr ""
+msgstr "Ajoutez un portefeuille"
 
 #: user/templates/based.html:133
 msgid "Add Idea/Business Plan"
-msgstr ""
+msgstr "Ajoutez une idée/un plan d'affaires"
 
 #: user/templates/based.html:134
 msgid "Draft Business Idea"
-msgstr ""
+msgstr "Ébauche d'idée d'entreprise"
 
 #: user/templates/based.html:135
 msgid "All my ideas"
-msgstr ""
+msgstr "Toutes mes idées"
 
 #: user/templates/based.html:155
 msgid "Feedback/querry"
-msgstr ""
+msgstr "Commentaires/questions"
 
 #: user/templates/user/businessplan_form.html:43
 #: user/templates/user/portfolio_form.html:43
 #: user/templates/user/send-form.html:42
 msgid "submit"
-msgstr ""
+msgstr "soumettez"
 
 #: user/templates/user/index.html:5
 msgid "My Account"
-msgstr ""
+msgstr "Mon compte"
 
 #: user/templates/user/index.html:14
 msgid " Welcome to My Money Dashboard"
-msgstr ""
+msgstr "Bienvenue sur mon tableau My Money"
 
 #: user/templates/user/index.html:41
 msgid "Published Portfolio"
-msgstr ""
+msgstr "Portefeuille publié"
 
 #: user/templates/user/index.html:57
 msgid "Sponsored Business idea"
-msgstr ""
+msgstr "Idée d'entreprise sponsorisée"
 
 #: user/templates/user/index.html:73
 msgid "Approved Business idea"
-msgstr ""
+msgstr "Idée d'entreprise approuvé"
 
 #: user/templates/user/index.html:85
 msgid "Latest Announcements"
-msgstr ""
+msgstr "Dernières annonces"
 
 #: user/templates/user/index.html:90
 msgid "Date Created"
-msgstr ""
+msgstr "Date de création"
 
 #: user/templates/user/index.html:91
 msgid "Title"
-msgstr ""
+msgstr "Titre"
 
 #: user/templates/user/index.html:92
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: user/templates/user/index.html:93
 msgid "Provider"
-msgstr ""
+msgstr "Prestataire"
 
 #: user/templates/user/index.html:94
 msgid "Partner "
-msgstr ""
+msgstr "Partenaire"
 
 #: user/templates/user/send-form.html:39
 msgid "first step"
-msgstr ""
+msgstr "première étape"
 
 #: user/templates/user/send-form.html:40
 msgid "prev step"
-msgstr ""
+msgstr "étape précédente"
 
 #: user/views.py:44
 #, python-format
 msgid "%(title)s was created successfully"
-msgstr ""
+msgstr "%(title)s a été créé avec succès"
 
 #: user/views.py:52
 #, python-format
 msgid "%(title)s was successfully updated"
-msgstr ""
+msgstr "(titre)s a été mis à jour avec succès"
 
 #: user/views.py:86
 msgid "%business plan was successfully deleted"
-msgstr ""
+msgstr "Le %plan d'affaires a été supprimé avec succès"
 
 #: user/views.py:111
 #, python-format
 msgid "%(mobile)s was successfully updated"
-msgstr ""
+msgstr "%(mobile)s a été mis à jour avec succès"
 
 #: user/views.py:121
 #, python-format
 msgid "%(name)s was successfully sent"
-msgstr ""
+msgstr "%(nom)s a été envoyé avec succès"
 
 #: user/views.py:130
 #, python-format
 msgid "%(phone_number)s was successfully subscribed"
-msgstr ""
+msgstr "%(numéro_de_téléphone)s a été souscrit avec succès"
